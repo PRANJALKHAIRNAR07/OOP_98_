@@ -1,4 +1,7 @@
-/*PROBLEM STATEMENT: Develop a program in C++ to create a database of an employee's information system containing the following fields: Name, employee ID, Department, Date of Joining, Contact address, Telephone number etc. Construct the database with suitable member functions to accept and print employee details. Make use of constructor types, destructor, static members, inline function and dynamic memory allocation using operators-new and delete.*/
+/*PROBLEM STATEMENT: Develop a program in C++ to create a database of an employee's information system containing the following fields:
+Name, employee ID, Department, Date of Joining, Contact address, Telephone number etc.
+Construct the database with suitable member functions to accept and print employee details. 
+Make use of constructor types, destructor, static members, inline function and dynamic memory allocation using operators-new and delete.*/
 
 
 #include<iostream>
@@ -101,3 +104,4 @@ void employee:: display(){
     cout << "contact address :" <<contact<<endl;
     cout << "telephone no:" <<telephone_no<<endl;
 }
+
